@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="210" prefWidth="260" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guessgame.FXMLDocumentController">
+    <children>
+        <Label layoutX="10" layoutY="10" text="請猜出 0 到 9 之間的正整數..." minHeight="16" minWidth="69" fx:id="label1" />
+        <Label layoutX="10" layoutY="40" text="總共有三次機會猜出正確數字..." minHeight="16" minWidth="69" fx:id="label2" />
+        <Label layoutX="10" layoutY="70" text="準備好了嗎..." minHeight="16" minWidth="69" fx:id="label3" />
+        <Label layoutX="10" layoutY="100" text="請輸入：" minHeight="16" minWidth="69" fx:id="label4" />
+        <TextField layoutX="65" layoutY="100" minHeight="16" minWidth="69" fx:id="input"></TextField>
+        <Button layoutX="10" layoutY="140" text="猜測" onAction="#handleButtonAction" fx:id="button1" />
+        <Button layoutX="70" layoutY="140" text="重新" onAction="#handleButtonAction2" fx:id="button2" />
+        <Label layoutX="10" layoutY="175" minHeight="16" minWidth="69" fx:id="label" />
+    </children>
+</AnchorPane>
+
+<!-- 
+   《程式語言教學誌》的範例程式
+    http://kaiching.org/
+    檔名：FXMLDocument.fxml
+    功能：猜數字遊戲的 View 檔案
+    作者：張凱慶 
+-->
