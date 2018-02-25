@@ -9,5 +9,5 @@ $ javac -d . *.java
 然後將 FXMLDocument.fxml 拷貝到 guess game 資料夾中，用以下指令便可啟動程式
 
 ```
-java guessgame.GuessGame
+$ java guessgame.GuessGame
 ```
